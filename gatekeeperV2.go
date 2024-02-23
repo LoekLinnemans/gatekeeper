@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func tijd() {
+func main() {
 	now := time.Now().Format("15:04:05")
 
 	if now > "07:00:00" && now < "12:00:00" {

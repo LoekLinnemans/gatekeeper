@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func kenteken() {
+func main() {
 	now := time.Now().Format("15:04:05")
 	licensePlateslist := []string{"ABC123", "DEF456", "GHI789"}
 

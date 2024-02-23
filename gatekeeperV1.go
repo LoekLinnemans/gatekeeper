@@ -2,6 +2,6 @@ package main
 
 import "fmt"
 
-func print() {
+func main() {
 	fmt.Println("Welkom bij Fonteyn Vakantieparken")
 }
